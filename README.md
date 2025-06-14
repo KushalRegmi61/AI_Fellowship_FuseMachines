@@ -8,13 +8,14 @@ Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repos
 ---
 
 ## 📚 Table of Contents
-- [📈 Fellowship Progress](#-fellowship-progress)
-- [📘 Detailed Weekly Logs](#-detailed-weekly-logs)
-- [📢 LinkedIn Weekly Posts](#-linkedin-weekly-posts)
+<!-- [📈 Fellowship Progress](#-fellowship-progress) !-->
+‣ [📘 Detailed Weekly Logs](#-detailed-weekly-logs)
+
+‣ [📢 LinkedIn Weekly Posts](#-linkedin-weekly-posts)
 
 ---
 
-## 📈 Fellowship Progress
+<!--## 📈 Fellowship Progress
 
 **Progress:** ![Progress](https://progress-bar.dev/4/?scale=25&title=completed&width=300&color=babaca)  
 
@@ -24,45 +25,121 @@ Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repos
 | 2    | Supervised Learning Basics| ⏳ In Progress  |
 | 3    | TBD                       | 🔜 Upcoming     |
 
----
+!-->
 
 ## 📘 Detailed Weekly Logs
 
 ### 🔹 Week 1: Introduction to AI/ML
 
-
 #### 📌 Overview
-- Introduced AI history, goals, and fellowship expectations
-- Outlined the 6-month roadmap and learning structure
-
+‣ Introduced AI history, goals, and fellowship expectations  
+‣ Outlined the 6-month roadmap and learning structure
 
 #### 🧰 Pre-session
-- **Intermediate Python:** Lists, Tuples, Dictionaries, Sets, Strings, Collections, Itertools, Lambda, Exceptions, Logging, JSON, Decorators, Generators, Threading & Multiprocessing  
-- **Mathematics:** Linear Algebra, Matrix Calculus, Probability Theory  
-- **AI/ML:** Applications, typical ML workflow
+‣ **Intermediate Python:** Lists, Tuples, Dictionaries, Sets, Strings, Collections, Itertools, Lambda, Exceptions, Logging, JSON, Decorators, Generators, Threading & Multiprocessing  
+‣ **Mathematics:** Linear Algebra, Matrix Calculus, Probability Theory  
+‣ **AI/ML:** Applications, typical ML workflow
 
 🔗 [Pre-session Repo](https://github.com/yourusername/week1-pre)
 
-
 #### 🧠 Live Session : 2 Hrs on Sunday
-- Discussed AI evolution, real-world impact, and fellowship roadmap
-
+‣ Discussed AI evolution, real-world impact, and fellowship roadmap
 
 #### 📝 Post-session
-- Created a personalized learning plan and defined focus areas
+‣ Created a personalized learning plan and defined focus areas
 
-💡 Key Insight: Setting clear intentions early helps stay focused and track meaningful progress
+#### 💡 Key Insight
+‣ Setting clear intentions early helps stay focused and track meaningful progress
+
+---
+
+### 🔹 Week 2: 12-Factor App for Machine Learning Systems
+
+#### 📌 Overview
+‣ Explored the 12-Factor App principles for building scalable, cloud-native ML systems  
+
+‣ Reviewed Python’s core ML libraries and project structuring with Git & Cookiecutter
+
+#### 🧰 Pre-session
+‣ Covered: Git basics, project templates, core Python ML libraries  
+‣ Topics:  
+  ‣ 12-Factor App methodology  
+  ‣ REST APIs with FastAPI  
+  ‣ Async programming  
+  ‣ Logging & debugging  
+  ‣ Docker containerization
+
+🔗 [Pre-session Repo](https://github.com/yourusername/week2-pre)
+
+#### 🧠 Live Session
+‣ Applied 12-Factor principles to real ML system design  
+
+‣ Explored deployment-ready architecture and best practices
+
+#### 📝 Post-session
+‣ **Task:** Create a FastAPI microservice implementing as many 12-Factor principles as possible, focusing on clarity, practicality, and best development practices
+
+🔗 [Post-session Repo](https://github.com/yourusername/week2-post)
+
+#### 💡 Key Insight
+‣ Engineering discipline (like 12-Factor & Docker) turns ML code into scalable, reliable systems
+
+---
+
+### 🔹 Week 3: Data Wrangling: Pandas & SQL
+
+#### 📌 Overview
+‣ Master data wrangling using Pandas and SQL to clean, transform, and analyze diverse datasets.  
+‣ Combine both tools for advanced, real-world data tasks.
+
+#### 🧰 Pre-session
+‣ Data types, Pandas basics, SQL queries (filtering, joins, aggregation)  
+‣ Data validation with Pydantic and SQL wrangling
+
+🔗 [Pre-session Repo](https://github.com/yourusername/week3-pre)
+
+#### 🧠 Live Session
+‣ Hands-on exercises integrating Pandas and SQL for real-world data challenges
+
+#### 📝 Post-session Tasks  
+‣ **SQL Assignment:** Applied SQL concepts to 20 real-world queries on customers, employees, reports, subqueries, rankings, and data updates—reinforcing SQL’s critical role in AI/ML analysis.  
+‣ **Pandas Assignment:** Practiced data wrangling with data creation/loading, indexing, filtering, cleaning, transforming, aggregating, merging, and exploratory analysis, uncovering key product rating insights.
+
+🔗 [Post-session Repo](https://github.com/yourusername/week3-post)
+
+#### 💡 Key Insight  
+‣ Leveraging Pandas and SQL together efficiently solves complex data problems essential for AI/ML workflows.
+
+---
+
+### 🔹 Week 4: Data Visualization & Presentation
+
+#### 📌 Overview  
+‣ Understand two key purposes of data visualization: exploratory analysis (discovering insights) and explanatory analysis (communicating findings).  
+‣ Learn chart selection, ethical data presentation, and storytelling principles.  
+
+#### 🧰 Pre-session  
+‣ Study visualization types, design principles (color theory, typography, layout), and ethical considerations in data presentation.
+‣ Explore differet visualization libraries such as Altair, Matplotlib, Plotly, Seaborn
+
+🔗 [Pre-session Repo](https://github.com/yourusername/week4-pre)
+
+#### 🧠 Live Session  
+‣ Practice analyzing and visualizing 1D, 2D, and multi-dimensional data.  
+‣ Apply exploratory vs explanatory visualizations and build compelling data stories.
+
+#### 📝 Post-session Tasks  
+‣ Applied learned concepts to analyze and visualize Seaborn’s Tips dataset, creating effective exploratory and explanatory visualizations.  
+
+🔗 [Post-session Repo](https://github.com/yourusername/week4-post)
+
+#### 💡 Key Insight  
+‣ Effective visualization and storytelling transform data insights into impactful decisions while maintaining ethical clarity.
 
 ---
 
 
-### 🔹 Week 2: Supervised Learning Basics
-- **Overview:** _(TBD)_
-- **Pre-session:** _(TBD)_
-- **Live Session:** _(TBD)_
-- **Post-session:** _(TBD)_
 
----
 
 ## 📢 LinkedIn Weekly Posts
 
