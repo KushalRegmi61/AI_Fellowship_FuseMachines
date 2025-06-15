@@ -1,6 +1,6 @@
 # 🤖 Fusemachines AI Fellowship – Weekly Progress
 
-Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repository serves as a public log of my learning progress, challenges, and hands-on projects. Each week includes a short summary, key takeaways, and links to related code or notes.
+Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repository serves as a public log of my learning progress, challenges, and hands-on projects. Each week includes a short summary, key takeaways, and links to related code or notes.
 
 > 🎯 **Why this Fellowship?**  
 > I joined this program to sharpen my skills in AI/ML, build real-world projects, and grow with a learning community. This log helps me stay accountable and reflect on my growth.
