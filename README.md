@@ -186,5 +186,27 @@ Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repos
 
 ## 📢 LinkedIn Weekly Posts
 
-- [Week 1 Reflection](https://linkedin.com/in/your-week1-post)  
-- Week 2 – Coming Soon
+‣ [Week 1–4 Recap](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_aifellowshipfusemachinesreadmemd-at-master-activity-7339869109536387073-0Zrf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)  
+<!--
+‣ Week 5 – Coming Soon  
+‣ Week 6 – Coming Soon  
+‣ Week 7 – Coming Soon  
+‣ Week 8 – Coming Soon  
+‣ Week 9 – Coming Soon  
+‣ Week 10 – Coming Soon  
+‣ Week 11 – Coming Soon  
+‣ Week 12 – Coming Soon  
+‣ Week 13 – Coming Soon  
+‣ Week 14 – Coming Soon  
+‣ Week 15 – Coming Soon  
+‣ Week 16 – Coming Soon  
+‣ Week 17 – Coming Soon  
+‣ Week 18 – Coming Soon  
+‣ Week 19 – Coming Soon  
+‣ Week 20 – Coming Soon  
+‣ Week 21 – Coming Soon  
+‣ Week 22 – Coming Soon  
+‣ Week 23 – Coming Soon  
+‣ Week 24 – Coming Soon  
+‣ Week 25 – Coming Soon
+
