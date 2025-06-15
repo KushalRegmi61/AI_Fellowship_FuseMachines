@@ -122,7 +122,7 @@ Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repos
 ‣ Study visualization types, design principles (color theory, typography, layout), and ethical considerations in data presentation.
 ‣ Explore differet visualization libraries such as Altair, Matplotlib, Plotly, Seaborn
 
-🔗 [Pre-session Repo](https://github.com/yourusername/week4-pre)
+<!--🔗 [Pre-session Repo](https://github.com/yourusername/week1-pre) !-->
 
 #### 🧠 Live Session  
 ‣ Practice analyzing and visualizing 1D, 2D, and multi-dimensional data.  
@@ -131,12 +131,13 @@ Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repos
 #### 📝 Post-session Tasks  
 ‣ Applied learned concepts to analyze and visualize Seaborn’s Tips dataset, creating effective exploratory and explanatory visualizations.  
 
-🔗 [Post-session Repo](https://github.com/yourusername/week4-post)
+🔗 [Post-session Repo](https://github.com/KushalRegmi61/data_visualization/tree/master)
 
 #### 💡 Key Insight  
 ‣ Effective visualization and storytelling transform data insights into impactful decisions while maintaining ethical clarity.
 
 ---
+<!--
 ### 🔹 Week 5: Linear Models
 
 #### 📌 Overview  
@@ -179,7 +180,7 @@ Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repos
 
 #### 💡 Key Insight  
 ‣ Linear models remain powerful and interpretable tools—especially when extended with regularization and GLMs—to solve a wide range of practical problems across domains
-
+!-->
 
 
 
