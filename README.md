@@ -137,6 +137,48 @@ Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repos
 ‣ Effective visualization and storytelling transform data insights into impactful decisions while maintaining ethical clarity.
 
 ---
+### 🔹 Week 5: Linear Models
+
+#### 📌 Overview  
+‣ Delved into linear models as a foundational tool in predictive modeling and statistical analysis  
+
+‣ Covered core and extended linear modeling techniques, from simple regression to generalized linear models (GLMs)  
+
+#### 🧰 Pre-session  
+‣ Covered: Linear & polynomial regression, performance metrics (R², RMSE)  
+‣ Topics:  
+  ‣ MLE & least squares (simple/multiple regression), geometric intuition  
+  ‣ Regularization: Lasso, Ridge, ElasticNet  
+  ‣ Classification: Binary, Multiclass (OvO, OvR, Multinomial Logistic)  
+  ‣ Softmax & cross-entropy loss  
+  ‣ Parameter optimization via Gradient Descent  
+
+🔗 [Pre-session Repo](https://github.com/yourusername/week5-pre)
+
+#### 🧠 Live Session  
+‣ Explored real-world applications of linear models with hands-on implementation  
+
+‣ Interpreted model outputs, coefficients, and statistical significance  
+
+‣ Compared regularized and non-regularized models to assess robustness
+
+#### 📝 Post-session  
+‣ **Task 1:** Trained a linear regression model to predict students' final grade (G3) and evaluated performance using regression metrics  
+
+‣ **Task 2:** Applied logistic regression on the same dataset to classify student pass/fail outcomes  
+
+‣ Key steps:  
+  ‣ Feature selection via correlation analysis  
+  ‣ Training with top vs. all features  
+  ‣ Encoding categorical variables  
+  ‣ Evaluated with accuracy, precision, recall, F1-score  
+  ‣ Compared against baseline (dummy) classifiers  
+
+
+🔗 [Post-session Repo](https://github.com/yourusername/week5-post)
+
+#### 💡 Key Insight  
+‣ Linear models remain powerful and interpretable tools—especially when extended with regularization and GLMs—to solve a wide range of practical problems across domains
 
 
 
