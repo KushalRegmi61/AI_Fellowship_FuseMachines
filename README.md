@@ -40,7 +40,7 @@ Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repos
 ‣ **Mathematics:** Linear Algebra, Matrix Calculus, Probability Theory  
 ‣ **AI/ML:** Applications, typical ML workflow
 
-🔗 [Pre-session Repo](https://github.com/yourusername/week1-pre)
+<!--🔗 [Pre-session Repo](https://github.com/yourusername/week1-pre) !-->
 
 #### 🧠 Live Session : 2 Hrs on Sunday
 ‣ Discussed AI evolution, real-world impact, and fellowship roadmap
@@ -69,7 +69,7 @@ Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repos
   ‣ Logging & debugging  
   ‣ Docker containerization
 
-🔗 [Pre-session Repo](https://github.com/yourusername/week2-pre)
+<!--🔗 [Pre-session Repo](https://github.com/yourusername/week1-pre) !-->
 
 #### 🧠 Live Session
 ‣ Applied 12-Factor principles to real ML system design  
@@ -79,7 +79,7 @@ Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repos
 #### 📝 Post-session
 ‣ **Task:** Create a FastAPI microservice implementing as many 12-Factor principles as possible, focusing on clarity, practicality, and best development practices
 
-🔗 [Post-session Repo](https://github.com/yourusername/week2-post)
+🔗 [Post-session Repo](https://github.com/KushalRegmi61/Explore-Cafe-API)
 
 #### 💡 Key Insight
 ‣ Engineering discipline (like 12-Factor & Docker) turns ML code into scalable, reliable systems
@@ -96,7 +96,7 @@ Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repos
 ‣ Data types, Pandas basics, SQL queries (filtering, joins, aggregation)  
 ‣ Data validation with Pydantic and SQL wrangling
 
-🔗 [Pre-session Repo](https://github.com/yourusername/week3-pre)
+<!--🔗 [Pre-session Repo](https://github.com/yourusername/week1-pre) !-->
 
 #### 🧠 Live Session
 ‣ Hands-on exercises integrating Pandas and SQL for real-world data challenges
@@ -105,7 +105,7 @@ Welcome to my 25-week journey through the Fusemachines AI Fellowship. This repos
 ‣ **SQL Assignment:** Applied SQL concepts to 20 real-world queries on customers, employees, reports, subqueries, rankings, and data updates—reinforcing SQL’s critical role in AI/ML analysis.  
 ‣ **Pandas Assignment:** Practiced data wrangling with data creation/loading, indexing, filtering, cleaning, transforming, aggregating, merging, and exploratory analysis, uncovering key product rating insights.
 
-🔗 [Post-session Repo](https://github.com/yourusername/week3-post)
+🔗 [Post-session Repo](https://github.com/KushalRegmi61/Data_Wrangling_with_SQL_and_Pandas/tree/master)
 
 #### 💡 Key Insight  
 ‣ Leveraging Pandas and SQL together efficiently solves complex data problems essential for AI/ML workflows.
