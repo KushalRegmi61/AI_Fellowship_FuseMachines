@@ -148,11 +148,11 @@ This week focused on **linear models** as foundational tools in both **predictiv
 #### 🧰 Pre-session  
 Explored essential concepts and mathematical foundations behind linear models:
 
-‣ **Linear & Polynomial Regression**: Introduction to modeling linear relationships 
-‣ **Performance Metrics**: R², RMSE, and error analysis 
-‣ **MLE & Least Squares**: Derivations and geometric intuition of OLS in simple and multiple regression 
-‣ **Regularization Techniques**: Lasso, Ridge, and ElasticNet with geometric interpretation  
-‣ **Classification via Logistic Regression**: Binary, One-vs-One, One-vs-Rest, and Multinomial Logistic Regression
+‣ **Linear & Polynomial Regression**: Introduction to modeling linear relationships <br>
+‣ **Performance Metrics**: R², RMSE, and error analysis <br>
+‣ **MLE & Least Squares**: Derivations and geometric intuition of OLS in simple and multiple regression <br>
+‣ **Regularization Techniques**: Lasso, Ridge, and ElasticNet with geometric interpretation  <br>
+‣ **Classification via Logistic Regression**: Binary, One-vs-One, One-vs-Rest, and Multinomial Logistic Regression<br>
 ‣ **Optimization**: Parameter tuning using Gradient Descent for simple and multiple models 
 
 
