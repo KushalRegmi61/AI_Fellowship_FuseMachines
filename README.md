@@ -137,50 +137,47 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
 ‣ Effective visualization and storytelling transform data insights into impactful decisions while maintaining ethical clarity.
 
 ---
-<!--
 ### 🔹 Week 5: Linear Models
 
 #### 📌 Overview  
-‣ Delved into linear models as a foundational tool in predictive modeling and statistical analysis  
-
-‣ Covered core and extended linear modeling techniques, from simple regression to generalized linear models (GLMs)  
+This week focused on **linear models** as foundational tools in both **predictive modeling** and **statistical inference**. We covered a wide range of techniques—from basic linear regression to more advanced generalized linear models (GLMs), emphasizing their mathematical intuition, implementation, and practical applications.
 
 #### 🧰 Pre-session  
-‣ Covered: Linear & polynomial regression, performance metrics (R², RMSE)  
-‣ Topics:  
-  ‣ MLE & least squares (simple/multiple regression), geometric intuition  
-  ‣ Regularization: Lasso, Ridge, ElasticNet  
-  ‣ Classification: Binary, Multiclass (OvO, OvR, Multinomial Logistic)  
-  ‣ Softmax & cross-entropy loss  
-  ‣ Parameter optimization via Gradient Descent  
+Explored essential concepts and mathematical foundations behind linear models:
 
-🔗 [Pre-session Repo](https://github.com/yourusername/week5-pre)
+‣ **Linear & Polynomial Regression**: Introduction to modeling linear relationships 
+‣ **Performance Metrics**: R², RMSE, and error analysis 
+‣ **MLE & Least Squares**: Derivations and geometric intuition of OLS in simple and multiple regression 
+‣ **Regularization Techniques**: Lasso, Ridge, and ElasticNet with geometric interpretation  
+‣ **Classification via Logistic Regression**: Binary, One-vs-One, One-vs-Rest, and Multinomial Logistic Regression
+‣ **Optimization**: Parameter tuning using Gradient Descent for simple and multiple models 
+
 
 #### 🧠 Live Session  
-‣ Explored real-world applications of linear models with hands-on implementation  
-
-‣ Interpreted model outputs, coefficients, and statistical significance  
-
-‣ Compared regularized and non-regularized models to assess robustness
+‣ Implemented real-world use cases of linear models through hands-on coding  
+‣ Interpreted coefficients and assessed statistical significance of model terms  
+‣ Compared regularized (Lasso/Ridge) vs. non-regularized models for robustness and overfitting control  
 
 #### 📝 Post-session  
-‣ **Task 1:** Trained a linear regression model to predict students' final grade (G3) and evaluated performance using regression metrics  
+Two applied tasks were conducted using a student performance dataset:
 
-‣ **Task 2:** Applied logistic regression on the same dataset to classify student pass/fail outcomes  
+‣ **Task 1: Regression Modeling**  
+Trained a linear regression model to predict final grades (G3), using evaluation metrics like R² and RMSE  
 
-‣ Key steps:  
-  ‣ Feature selection via correlation analysis  
-  ‣ Training with top vs. all features  
+‣ **Task 2: Classification Task**  
+Applied logistic regression to classify student pass/fail outcomes  
+
+Key steps in both tasks included:  
+  ‣ Feature selection via correlation heatmaps  
+  ‣ Comparing performance with all vs. selected features  
   ‣ Encoding categorical variables  
-  ‣ Evaluated with accuracy, precision, recall, F1-score  
-  ‣ Compared against baseline (dummy) classifiers  
+  ‣ Evaluation using accuracy, precision, recall, and F1-score  
+  ‣ Benchmarking against baseline (dummy) classifiers  
 
-
-🔗 [Post-session Repo](https://github.com/yourusername/week5-post)
+🔗 [Post-session_Repo](https://github.com/KushalRegmi61/Linear_Models/tree/master)
 
 #### 💡 Key Insight  
-‣ Linear models remain powerful and interpretable tools—especially when extended with regularization and GLMs—to solve a wide range of practical problems across domains
-!-->
+Linear models, despite their simplicity, remain powerful and interpretable. With extensions like **regularization** and **GLMs**, they form a flexible toolkit for solving a wide range of regression and classification problems across domains.
 
 
 
