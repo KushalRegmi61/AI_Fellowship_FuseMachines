@@ -15,9 +15,20 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
 &nbsp;&nbsp;&nbsp;&nbsp;‣ [Week 3: Data Wrangling: Pandas and SQL](#-week-3-data-wrangling-pandas-and-sql)  
 &nbsp;&nbsp;&nbsp;&nbsp;‣ [Week 4: Data Visualization and Presentation](#-week-4-data-visualization-and-presentation)  
 &nbsp;&nbsp;&nbsp;&nbsp;‣ [Week 5: Linear Models](#-week-5-linear-models)  
+
 ‣ [📢 LinkedIn Weekly Posts](#-linkedin-weekly-posts)
 
----
+<!--## 📈 Fellowship Progress
+
+**Progress:** ![Progress](https://progress-bar.dev/4/?scale=25&title=completed&width=300&color=babaca)  
+
+| Week | Module                    | Status         |
+|------|---------------------------|----------------|
+| 1    | Introduction to AI/ML     | ✅ Completed    |
+| 2    | Supervised Learning Basics| ⏳ In Progress  |
+| 3    | TBD                       | 🔜 Upcoming     |
+
+!-->
 
 ## 📘 Detailed Weekly Logs
 
@@ -31,6 +42,8 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
 ‣ **Intermediate Python:** Lists, Tuples, Dictionaries, Sets, Strings, Collections, Itertools, Lambda, Exceptions, Logging, JSON, Decorators, Generators, Threading & Multiprocessing  
 ‣ **Mathematics:** Linear Algebra, Matrix Calculus, Probability Theory  
 ‣ **AI/ML:** Applications, typical ML workflow
+
+<!--🔗 [Pre-session Repo](https://github.com/yourusername/week1-pre) !-->
 
 #### 🧠 Live Session : 2 Hrs on Sunday
 ‣ Discussed AI evolution, real-world impact, and fellowship roadmap
@@ -47,6 +60,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
 
 #### 📌 Overview
 ‣ Explored the 12-Factor App principles for building scalable, cloud-native ML systems  
+
 ‣ Reviewed Python’s core ML libraries and project structuring with Git & Cookiecutter
 
 #### 🧰 Pre-session
@@ -58,8 +72,11 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   ‣ Logging & debugging  
   ‣ Docker containerization
 
+<!--🔗 [Pre-session Repo](https://github.com/yourusername/week1-pre) !-->
+
 #### 🧠 Live Session
 ‣ Applied 12-Factor principles to real ML system design  
+
 ‣ Explored deployment-ready architecture and best practices
 
 #### 📝 Post-session
@@ -72,7 +89,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
 
 ---
 
-### 🔹 Week 3: Data Wrangling: Pandas and SQL
+### 🔹 Week 3: Data Wrangling: Pandas & SQL
 
 #### 📌 Overview
 ‣ Master data wrangling using Pandas and SQL to clean, transform, and analyze diverse datasets.  
@@ -81,6 +98,8 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
 #### 🧰 Pre-session
 ‣ Data types, Pandas basics, SQL queries (filtering, joins, aggregation)  
 ‣ Data validation with Pydantic and SQL wrangling
+
+<!--🔗 [Pre-session Repo](https://github.com/yourusername/week1-pre) !-->
 
 #### 🧠 Live Session
 ‣ Hands-on exercises integrating Pandas and SQL for real-world data challenges
@@ -96,15 +115,17 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
 
 ---
 
-### 🔹 Week 4: Data Visualization and Presentation
+### 🔹 Week 4: Data Visualization & Presentation
 
 #### 📌 Overview  
 ‣ Understand two key purposes of data visualization: exploratory analysis (discovering insights) and explanatory analysis (communicating findings).  
 ‣ Learn chart selection, ethical data presentation, and storytelling principles.  
 
 #### 🧰 Pre-session  
-‣ Study visualization types, design principles (color theory, typography, layout), and ethical considerations in data presentation.  
-‣ Explore different visualization libraries such as Altair, Matplotlib, Plotly, Seaborn
+‣ Study visualization types, design principles (color theory, typography, layout), and ethical considerations in data presentation.
+‣ Explore differet visualization libraries such as Altair, Matplotlib, Plotly, Seaborn
+
+<!--🔗 [Pre-session Repo](https://github.com/yourusername/week1-pre) !-->
 
 #### 🧠 Live Session  
 ‣ Practice analyzing and visualizing 1D, 2D, and multi-dimensional data.  
@@ -119,7 +140,6 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
 ‣ Effective visualization and storytelling transform data insights into impactful decisions while maintaining ethical clarity.
 
 ---
-
 ### 🔹 Week 5: Linear Models
 
 #### 📌 Overview  
@@ -128,12 +148,13 @@ This week focused on **linear models** as foundational tools in both **predictiv
 #### 🧰 Pre-session  
 Explored essential concepts and mathematical foundations behind linear models:
 
-‣ **Linear & Polynomial Regression**: Introduction to modeling linear relationships  
-‣ **Performance Metrics**: R², RMSE, and error analysis  
-‣ **MLE & Least Squares**: Derivations and geometric intuition of OLS in simple and multiple regression  
+‣ **Linear & Polynomial Regression**: Introduction to modeling linear relationships 
+‣ **Performance Metrics**: R², RMSE, and error analysis 
+‣ **MLE & Least Squares**: Derivations and geometric intuition of OLS in simple and multiple regression 
 ‣ **Regularization Techniques**: Lasso, Ridge, and ElasticNet with geometric interpretation  
-‣ **Classification via Logistic Regression**: Binary, One-vs-One, One-vs-Rest, and Multinomial Logistic Regression  
+‣ **Classification via Logistic Regression**: Binary, One-vs-One, One-vs-Rest, and Multinomial Logistic Regression
 ‣ **Optimization**: Parameter tuning using Gradient Descent for simple and multiple models 
+
 
 #### 🧠 Live Session  
 ‣ Implemented real-world use cases of linear models through hands-on coding  
@@ -161,11 +182,12 @@ Key steps in both tasks included:
 #### 💡 Key Insight  
 Linear models, despite their simplicity, remain powerful and interpretable. With extensions like **regularization** and **GLMs**, they form a flexible toolkit for solving a wide range of regression and classification problems across domains.
 
----
+
 
 ## 📢 LinkedIn Weekly Posts
 
 ‣ [Week 1–4 Recap](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_aifellowshipfusemachinesreadmemd-at-master-activity-7339869109536387073-0Zrf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)  
+<!--
 ‣ Week 5 – Coming Soon  
 ‣ Week 6 – Coming Soon  
 ‣ Week 7 – Coming Soon  
@@ -187,3 +209,4 @@ Linear models, despite their simplicity, remain powerful and interpretable. With
 ‣ Week 23 – Coming Soon  
 ‣ Week 24 – Coming Soon  
 ‣ Week 25 – Coming Soon
+
