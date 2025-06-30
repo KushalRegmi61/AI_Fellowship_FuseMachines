@@ -16,6 +16,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 4: Data Visualization and Presentation](#week-4-data-visualization-and-presentation)  
   - [Week 5: Linear Models](#week-5-linear-models)
   - [Week_6: Beyond Linear Models](#week-6-beyond-linear-models)
+  - [Week_7: Ensemble Learning and Optimization Strategies](#week-7-essemble-learning-and-optimization-strategies)
 
 - [LinkedIn Recaps](#linkedin-recaps)
 
@@ -198,8 +199,41 @@ Key steps:
 > I explored how models like SVM, KNN, Naive Bayes, and Decision Trees offer flexible, interpretable, and often more effective alternatives to linear models across diverse tasks.
 ---
 
+
+### Week 7: Ensemble Learning and Optimization Strategies
+
+**Overview**
+Covered ensemble learning techniques—Bagging, Boosting (AdaBoost, Gradient Boosting, XGBoost)—to improve model accuracy and generalization. Also focused on hyperparameter tuning with `GridSearchCV` and `RandomizedSearchCV`.
+
+**Pre-session**
+
+* Reviewed bias–variance decomposition and its implications
+* Studied Bagging, Random Forest, AdaBoost, Gradient Boosting, and XGBoost
+* Covered model tuning strategies and validation techniques
+
+**Live Session**
+
+* Compared Bagging vs Boosting approaches
+* Discussed XGBoost internals: second-order optimization, regularization, shrinkage
+* Demonstrated tuning with scikit-learn pipelines
+
+**Post-session**
+
+* Implemented Decision Tree, Random Forest, AdaBoost, GradientBoost, and XGBoost
+* Applied `GridSearchCV` and `RandomizedSearchCV` for hyperparameter tuning
+* Evaluated and compared performance improvements using ensemble methods
+
+[Post-session Repository](https://github.com/KushalRegmi61/Fusemachines-AI-Fellowship/tree/master/week_7)
+
+**Key Insight**
+Ensemble learning reduces bias and variance. When combined with proper tuning, it leads to scalable, accurate, and production-ready models.
+
+---
+
+
 ## LinkedIn Recaps
 
 - [Week 1–4 Recap](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_aifellowshipfusemachinesreadmemd-at-master-activity-7339869109536387073-0Zrf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 
 - [Week 5 Summary](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61linearmodels-activity-7340702306566365185-QTCr?utm_source=share&utm_medium=member_android&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [Week 6 Post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61beyondlinearmodels-activity-7342887916991340546-2iUb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
