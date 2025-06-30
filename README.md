@@ -222,8 +222,9 @@ Covered ensemble learning techniques—Bagging, Boosting (AdaBoost, Gradient Boo
 * Implemented Decision Tree, Random Forest, AdaBoost, GradientBoost, and XGBoost
 * Applied `GridSearchCV` and `RandomizedSearchCV` for hyperparameter tuning
 * Evaluated and compared performance improvements using ensemble methods
-
-[Post-session Repository](https://github.com/KushalRegmi61/Fusemachines-AI-Fellowship/tree/master/week_7)
+  
+> **Detailed Repo For Week_7:** <br>
+>[Ensemble Learning and Optimization Strategies](https://github.com/KushalRegmi61/ensemble-learning-and-optimization-strategies)
 
 **Key Insight**
 Ensemble learning reduces bias and variance. When combined with proper tuning, it leads to scalable, accurate, and production-ready models.
