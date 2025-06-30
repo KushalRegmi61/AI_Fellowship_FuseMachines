@@ -16,7 +16,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 4: Data Visualization and Presentation](#week-4-data-visualization-and-presentation)  
   - [Week 5: Linear Models](#week-5-linear-models)
   - [Week_6: Beyond Linear Models](#week-6-beyond-linear-models)
-  - [Week_7: Ensemble Learning and Optimization Strategies](#week-7-essemble-learning-and-optimization-strategies)
+  - [Week_7: Ensemble Learning and Optimization Strategies](#week-7-ensemble-learning-and-optimization-strategies)
 
 - [LinkedIn Recaps](#linkedin-recaps)
 
