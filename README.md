@@ -17,6 +17,8 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 5: Linear Models](#week-5-linear-models)
   - [Week_6: Beyond Linear Models](#week-6-beyond-linear-models)
   - [Week_7: Ensemble Learning and Optimization Strategies](#week-7-ensemble-learning-and-optimization-strategies)
+  - [Week_8: Feature Engineering and ML Pipelines](#week-8-feature-engineering-and-ml-pipelines)
+  
 
 - [LinkedIn Recaps](#linkedin-recaps)
 
@@ -232,9 +234,42 @@ Ensemble learning reduces bias and variance. When combined with proper tuning, i
 ---
 
 
+### Week 8: Feature Engineering and ML Pipelines
+
+**Overview**
+Focused on designing high-quality features and building reusable ML pipelines. Covered techniques for transforming, selecting, and extracting features from various data types (text, images, time), handling outliers and imbalanced datasets, and implementing robust workflows using scikit-learn pipelines.
+
+**Pre-session**
+
+* Introduced the importance of feature engineering and types of features (numerical, categorical, datetime, text, image)
+* Explored encoding methods (OHE, label, target), scaling techniques (standard, robust, min-max), and mathematical transformations
+* Studied feature selection methods: Filter (chi2, ANOVA), Wrapper (forward/backward), and Embedded (Lasso, tree-based)
+
+**Live Session**
+
+* Demonstrated feature extraction using regex (text) and datetime processing
+* Covered outlier detection techniques (Z-score, IQR, DBSCAN, Isolation Forest) and imbalance handling methods (SMOTE, cost-sensitive learning)
+* Explained ML workflow structuring using `Pipeline()`, `FunctionTransformer()`, and `ColumnTransformer()`
+
+**Post-session**
+
+* Created features from structured, textual, and image data using domain-specific transformations
+* Implemented pipelines to chain encoding, scaling, and model training using scikit-learn
+* Balanced imbalanced datasets using hybrid sampling methods (SMOTE+ENN) and built cost-sensitive classifiers
+
+> **Detailed Repo For Week\_8:** <br>
+> [Feature Engineering and ML Pipelines](https://github.com/KushalRegmi61/feature-engineering-and-ml-pipelines)
+
+**Key Insight**
+Good features often matter more than the model itself. Structured pipelines not only ensure clean workflows but also simplify reproducibility and real-world deployment.
+
+---
+
+
 ## LinkedIn Recaps
 
 - [Week 1–4 Recap](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_aifellowshipfusemachinesreadmemd-at-master-activity-7339869109536387073-0Zrf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 
 - [Week 5 Summary](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61linearmodels-activity-7340702306566365185-QTCr?utm_source=share&utm_medium=member_android&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [Week 6 Post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61beyondlinearmodels-activity-7342887916991340546-2iUb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [Week_7_Summary](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61essemble-learning-and-optimization-strategies-activity-7345409528735182849-Ynic?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
