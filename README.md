@@ -270,6 +270,7 @@ Good features often matter more than the model itself. Structured pipelines not 
 
 - [Week 1–4 Recap](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_aifellowshipfusemachinesreadmemd-at-master-activity-7339869109536387073-0Zrf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 
-- [Week 5 Summary](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61linearmodels-activity-7340702306566365185-QTCr?utm_source=share&utm_medium=member_android&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [Week 5 Post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61linearmodels-activity-7340702306566365185-QTCr?utm_source=share&utm_medium=member_android&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [Week 6 Post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61beyondlinearmodels-activity-7342887916991340546-2iUb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
-- [Week_7_Summary](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61essemble-learning-and-optimization-strategies-activity-7345409528735182849-Ynic?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [Week_7_Post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61essemble-learning-and-optimization-strategies-activity-7345409528735182849-Ynic?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [Week_8_Post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61feature-engineering-and-ml-pipelines-activity-7350886257935192065-78YA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
