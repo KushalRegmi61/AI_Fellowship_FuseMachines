@@ -209,19 +209,19 @@ Key steps:
 **Overview**
 Covered ensemble learning techniques—Bagging, Boosting (AdaBoost, Gradient Boosting, XGBoost)—to improve model accuracy and generalization. Also focused on hyperparameter tuning with `GridSearchCV` and `RandomizedSearchCV`.
 
-**Pre-session**
+**Pre-Session Prep**
 
 * Reviewed bias–variance decomposition and its implications
 * Studied Bagging, Random Forest, AdaBoost, Gradient Boosting, and XGBoost
 * Covered model tuning strategies and validation techniques
 
-**Live Session**
+**Live Session Recap**
 
 * Compared Bagging vs Boosting approaches
 * Discussed XGBoost internals: second-order optimization, regularization, shrinkage
 * Demonstrated tuning with scikit-learn pipelines
 
-**Post-session**
+**Post-Session Work**
 
 * Implemented Decision Tree, Random Forest, AdaBoost, GradientBoost, and XGBoost
 * Applied `GridSearchCV` and `RandomizedSearchCV` for hyperparameter tuning
@@ -241,19 +241,19 @@ Ensemble learning reduces bias and variance. When combined with proper tuning, i
 **Overview**
 Focused on designing high-quality features and building reusable ML pipelines. Covered techniques for transforming, selecting, and extracting features from various data types (text, images, time), handling outliers and imbalanced datasets, and implementing robust workflows using scikit-learn pipelines.
 
-**Pre-session**
+** Pre-Session Prep**
 
 * Introduced the importance of feature engineering and types of features (numerical, categorical, datetime, text, image)
 * Explored encoding methods (OHE, label, target), scaling techniques (standard, robust, min-max), and mathematical transformations
 * Studied feature selection methods: Filter (chi2, ANOVA), Wrapper (forward/backward), and Embedded (Lasso, tree-based)
 
-**Live Session**
+**Live Session Recap**
 
 * Demonstrated feature extraction using regex (text) and datetime processing
 * Covered outlier detection techniques (Z-score, IQR, DBSCAN, Isolation Forest) and imbalance handling methods (SMOTE, cost-sensitive learning)
 * Explained ML workflow structuring using `Pipeline()`, `FunctionTransformer()`, and `ColumnTransformer()`
 
-**Post-session**
+**Post-Session Work**
 
 * Created features from structured, textual, and image data using domain-specific transformations
 * Implemented pipelines to chain encoding, scaling, and model training using scikit-learn
@@ -272,7 +272,7 @@ Good features often matter more than the model itself. Structured pipelines not 
 **Overview**
 Focused on classical time series forecasting using univariate AQI data. Covered decomposition, stationarity checks, model identification via ACF/PACF, and model evaluation with time-aware validation strategies.
 
-**Pre-session**
+** Pre-Session Prep**
 
 * Introduced time series concepts: trend, seasonality, cyclicality, and noise
 * Explained additive vs multiplicative decomposition
@@ -280,7 +280,7 @@ Focused on classical time series forecasting using univariate AQI data. Covered 
 * Explored ACF and PACF for ARIMA parameter selection
 * Discussed univariate vs multivariate forecasting models
 
-**Live Session**
+**Live Session Recap**
 
 * Demonstrated resampling and seasonal-trend decomposition
 * Applied transformations and differencing to achieve stationarity
@@ -289,11 +289,11 @@ Focused on classical time series forecasting using univariate AQI data. Covered 
 * Explained time series cross-validation: expanding vs sliding windows
 * Evaluated forecasts using MAE, RMSE, and residuals
 
-**Post-session**
+**Post-session Work**
 
 * Built a 7-day AQI forecast system for Kathmandu using ARIMA
 * Interpolated missing values, ensured stationarity, and applied ADF test
-* Selected best ARIMA model (ARIMA(1,1,1)) via AIC/BIC
+* Selected best ARIMA model (ARIMA(1,1,1)) via MAE, MAPE
 * Re-trained on full dataset to forecast AQI for July 24–30, 2025
 
 > **Detailed Repo For Week\_9:** <br>
