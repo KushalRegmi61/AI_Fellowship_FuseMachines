@@ -18,6 +18,8 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week_6: Beyond Linear Models](#week-6-beyond-linear-models)
   - [Week_7: Ensemble Learning and Optimization Strategies](#week-7-ensemble-learning-and-optimization-strategies)
   - [Week_8: Feature Engineering and ML Pipelines](#week-8-feature-engineering-and-ml-pipelines)
+  - [Week 9: Time Series Forecasting](#week-9-time-series-forecasting)
+    
   
 
 - [LinkedIn Recaps](#linkedin-recaps)
@@ -262,6 +264,43 @@ Focused on designing high-quality features and building reusable ML pipelines. C
 
 **Key Insight**
 Good features often matter more than the model itself. Structured pipelines not only ensure clean workflows but also simplify reproducibility and real-world deployment.
+
+---
+
+### Week 9: Time Series Forecasting
+
+**Overview**
+Focused on classical time series forecasting using univariate AQI data. Covered decomposition, stationarity checks, model identification via ACF/PACF, and model evaluation with time-aware validation strategies.
+
+**Pre-session**
+
+* Introduced time series concepts: trend, seasonality, cyclicality, and noise
+* Explained additive vs multiplicative decomposition
+* Covered stationarity, transformations (log, power, differencing), and ADF test
+* Explored ACF and PACF for ARIMA parameter selection
+* Discussed univariate vs multivariate forecasting models
+
+**Live Session**
+
+* Demonstrated resampling and seasonal-trend decomposition
+* Applied transformations and differencing to achieve stationarity
+* Visualized ACF/PACF to identify ARIMA terms
+* Covered models: Naive, Holt-Winters, and ARIMA
+* Explained time series cross-validation: expanding vs sliding windows
+* Evaluated forecasts using MAE, RMSE, and residuals
+
+**Post-session**
+
+* Built a 7-day AQI forecast system for Kathmandu using ARIMA
+* Interpolated missing values, ensured stationarity, and applied ADF test
+* Selected best ARIMA model (ARIMA(1,1,1)) via AIC/BIC
+* Re-trained on full dataset to forecast AQI for July 24–30, 2025
+
+> **Detailed Repo For Week\_9:** <br>
+> [Kathmandu AQI Forecasting](https://github.com/KushalRegmi61/7-days-aqi-forecast-ktm)
+
+**Key Insight**
+Classical time series models like ARIMA can provide strong baseline forecasts if stationarity is ensured and seasonality is well-understood.
 
 ---
 
