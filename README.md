@@ -30,28 +30,28 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
 
 ### Week 1: Introduction to AI/ML
 
-#### Pre-Session Prep
+**Pre-Session Prep**
 
 - Intermediate Python: Lists, Tuples, Dictionaries, Sets, Strings, Collections, Itertools, Lambda, Exceptions, Logging, JSON, Decorators, Generators, Threading & Multiprocessing  
 - Mathematics: Linear Algebra, Matrix Calculus, Probability Theory  
 - AI/ML: Applications, typical ML workflow
 
-#### Live Session Recap
+**Live Session Recap**
 
 - Discussed AI evolution, real-world impact, and fellowship roadmap
 
-#### Post-Session Work
+**Post-session Work**
 
 - Created a personalized learning plan and defined focus areas
 
-#### Key Insight  
+**Key Insight**  
 > I learned that setting clear goals early helped me stay focused and intentional throughout the program.
 
 ---
 
 ### Week 2: 12-Factor App for Machine Learning Systems
 
-#### Pre-Session Prep
+**Pre-Session Prep**
 
 - Git basics, project templates with Cookiecutter, and Python ML libraries  
 - Topics included:
@@ -61,35 +61,35 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - Logging and debugging  
   - Docker containerization
 
-#### Live Session Recap
+**Live Session Recap**
 
 - Applied 12-Factor principles to real ML system design  
 - Explored deployment-ready architecture and development best practices
 
-#### Post-Session Work
+**Post-session Work**
 
 I built a FastAPI microservice applying as many 12-Factor principles as possible, focusing on structure, clarity, and portability.
 
 > **Implementation Details:**  
 [GitHub – Explore Cafe API](https://github.com/KushalRegmi61/Explore-Cafe-API)
 
-#### Key Insight  
+**Key Insight**  
 > I realized that engineering best practices are essential to turn ML projects into reliable, scalable systems.
 
 ---
 
 ### Week 3: Data Wrangling Pandas and SQL
 
-#### Pre-Session Prep
+**Pre-Session Prep**
 
 - Pandas basics and SQL queries: filtering, joins, aggregation  
 - Data validation with Pydantic and real-world data cleaning scenarios
 
-#### Live Session Recap
+**Live Session Recap**
 
 - Worked through hands-on challenges integrating Pandas and SQL for real-world data analysis
 
-#### Post-Session Work
+**Post-session Work**
 
 - Completed 20 SQL queries involving customers, employees, subqueries, ranking, and data updates  
 - In Pandas: created/loaded datasets, cleaned and transformed them, and ran exploratory analysis on product ratings
@@ -97,24 +97,25 @@ I built a FastAPI microservice applying as many 12-Factor principles as possible
 > **Implementation Details:**  
 [GitHub – Data Wrangling with SQL and Pandas](https://github.com/KushalRegmi61/Data_Wrangling_with_SQL_and_Pandas/tree/master)
 
-#### Key Insight  
+
+**Key Insight** 
 > I found that combining SQL and Pandas made data cleaning and analysis much more efficient and flexible.
 
 ---
 
 ### Week 4: Data Visualization and Presentation
 
-#### Pre-Session Prep
+**Pre-Session Prep**
 
 - Studied visualization types, chart selection, layout, typography, and ethical design  
 - Explored libraries including Altair, Matplotlib, Plotly, and Seaborn
 
-#### Live Session Recap
+**Live Session Recap**
 
 - Practiced exploratory vs explanatory visualization techniques  
 - Built and evaluated charts for 1D, 2D, and multi-dimensional datasets
 
-#### Post-Session Work
+**Post-session Work**
 
 - Analyzed and visualized the Seaborn Tips dataset with exploratory and explanatory approaches  
 - Focused on clarity, relevance, and ethical presentation of data insights
@@ -122,14 +123,14 @@ I built a FastAPI microservice applying as many 12-Factor principles as possible
 > **Implementation Details:**  
 [GitHub – Data Visualization](https://github.com/KushalRegmi61/data_visualization/tree/master)
 
-#### Key Insight  
+**Key Insight** 
 > I learned how effective visual storytelling can make insights clearer and more impactful.
 
 ---
 
 ### Week 5: Linear Models
 
-#### Pre-Session Prep
+**Pre-Session Prep**
 
 - Linear and polynomial regression  
 - Performance metrics: R², RMSE  
@@ -138,12 +139,12 @@ I built a FastAPI microservice applying as many 12-Factor principles as possible
 - Logistic regression: binary, multiclass (OvR, OvO)  
 - Optimization: gradient descent for simple and multiple models
 
-#### Live Session Recap
+**Live Session Recap**
 
 - Implemented real-world linear model use cases  
 - Interpreted model coefficients and compared regularized vs non-regularized models
 
-#### Post-Session Work
+**Post-session Work**
 
 Using a student performance dataset:
 
@@ -158,7 +159,7 @@ Key steps:
 > **Implementation Details:**  
 [GitHub – Linear Models](https://github.com/KushalRegmi61/Linear_Models/tree/master)
 
-#### Key Insight  
+**Key Insight**  
 > I saw how linear models, despite their simplicity, offer both predictive power and interpretability.
 
 ---
@@ -167,19 +168,19 @@ Key steps:
 
 This week focused on **Beyond Linear Models: Discriminative and Generative Techniques**, covering non-linear, interpretable classifiers and probabilistic methods beyond the limitations of linear decision boundaries.
 
-#### Pre-Session Prep
+**Pre-Session Prep**
 
 * Decision Trees: impurity metrics (Gini, Entropy), continuous variable handling, pruning, early stopping
 * K-Nearest Neighbors (KNN): classification, regression, distance metrics (Brute Force, KD-Tree, Ball Tree)
 * Naive Bayes: conditional independence, probabilistic modeling, sentiment analysis
 * Support Vector Machines (SVM): margin maximization, kernel methods (linear, RBF, polynomial), C-SVM, ν-SVM
 
-#### Live Session Recap
+**Live Session Recap**
 
 * Compared tree-based models with linear baselines
 * Demonstrated pruning and interpretability techniques
 
-#### Post-Session Work
+**Post-session Work**
 
 Using a hotel booking dataset:
 
@@ -198,7 +199,7 @@ Key steps:
 > **Detailed Repo For Week_6:** <br>
 > [Beyond Linear Models](https://github.com/KushalRegmi61/Beyond_Linear_Models)
 
-#### Key Insight
+**Key Insight**
 
 > I explored how models like SVM, KNN, Naive Bayes, and Decision Trees offer flexible, interpretable, and often more effective alternatives to linear models across diverse tasks.
 ---
@@ -272,7 +273,7 @@ Good features often matter more than the model itself. Structured pipelines not 
 **Overview**
 Focused on classical time series forecasting using univariate AQI data. Covered decomposition, stationarity checks, model identification via ACF/PACF, and model evaluation with time-aware validation strategies.
 
-** Pre-Session Prep**
+**Pre-Session Prep**
 
 * Introduced time series concepts: trend, seasonality, cyclicality, and noise
 * Explained additive vs multiplicative decomposition
