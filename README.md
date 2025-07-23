@@ -241,7 +241,7 @@ Ensemble learning reduces bias and variance. When combined with proper tuning, i
 **Overview**
 Focused on designing high-quality features and building reusable ML pipelines. Covered techniques for transforming, selecting, and extracting features from various data types (text, images, time), handling outliers and imbalanced datasets, and implementing robust workflows using scikit-learn pipelines.
 
-** Pre-Session Prep**
+**Pre-Session Prep**
 
 * Introduced the importance of feature engineering and types of features (numerical, categorical, datetime, text, image)
 * Explored encoding methods (OHE, label, target), scaling techniques (standard, robust, min-max), and mathematical transformations
