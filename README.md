@@ -19,6 +19,8 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week_7: Ensemble Learning and Optimization Strategies](#week-7-ensemble-learning-and-optimization-strategies)
   - [Week_8: Feature Engineering and ML Pipelines](#week-8-feature-engineering-and-ml-pipelines)
   - [Week 9: Time Series Forecasting](#week-9-time-series-forecasting)
+  - [Week 10: Unsupervised Learning ](#week-10-unsupervised-learning)
+    
     
   
 
@@ -302,6 +304,44 @@ Focused on classical time series forecasting using univariate AQI data. Covered 
 
 **Key Insight**
 Classical time series models like ARIMA can provide strong baseline forecasts if stationarity is ensured and seasonality is well-understood.
+
+---
+
+### Week 10: Unsupervised Learning 
+
+**Overview**  
+Focused on extracting insights from unlabeled data using clustering techniques and association rule mining. Covered KMeans, hierarchical clustering, K-Prototypes, and market basket analysis for customer behavior understanding.
+
+**Pre-Session Prep**
+
+* Explored differences between supervised vs. unsupervised learning
+* Covered types of clustering: partition-based, hierarchical, density-based
+* Introduced KMeans algorithm and its assumptions
+* Studied linkage types and Lance-Williams formula in hierarchical clustering
+* Discussed K-Prototypes for mixed-type data
+* Introduced association rule mining: support, confidence, lift
+
+**Live Session Recap**
+
+* Implemented KMeans and evaluated clusters using inertia and silhouette scores
+* Visualized dendrograms and used agglomerative clustering for hierarchy extraction
+* Applied K-Prototypes to handle categorical and numerical data jointly
+* Performed market basket analysis using Apriori and `association_rules`
+* Discussed customer segmentation, anomaly detection, and recommendation use cases
+
+**Post-session Work**
+
+* Scaled numerical features (Age, Credit amount, Duration) after outlier handling
+* Ran KMeans clustering, selected optimal `k` using elbow + silhouette methods
+* Used linkage matrix to build and interpret hierarchical clusters
+* Clustered full dataset with KPrototypes after imputing missing categorical values
+* Applied association rule mining on a shopping mall dataset to uncover frequent co-purchased items and customer buying patterns
+
+> **Detailed Repo For Week\_10:** <br>
+> [Unsupervised Learning & Market Basket Analysis](https://github.com/KushalRegmi61/unsupervised-learning)
+
+**Key Insight**  
+Unsupervised learning reveals structure in data without labels. Clustering supports segmentation, while association rules uncover hidden item relationships both essential for actionable business insights.
 
 ---
 
