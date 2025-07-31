@@ -19,7 +19,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week_7: Ensemble Learning and Optimization Strategies](#week-7-ensemble-learning-and-optimization-strategies)
   - [Week_8: Feature Engineering and ML Pipelines](#week-8-feature-engineering-and-ml-pipelines)
   - [Week 9: Time Series Forecasting](#week-9-time-series-forecasting)
-  - [Week 10: Unsupervised Learning ](#week-10-unsupervised-learning)
+  - [Week 10: Unsupervised ML Techniques](#week-10-unsupervised-ml-techniques)
     
     
   
@@ -307,7 +307,7 @@ Classical time series models like ARIMA can provide strong baseline forecasts if
 
 ---
 
-### Week 10: Unsupervised Learning 
+### Week 10: Unsupervised ML Techniques
 
 **Overview**  
 Focused on extracting insights from unlabeled data using clustering techniques and association rule mining. Covered KMeans, hierarchical clustering, K-Prototypes, and market basket analysis for customer behavior understanding.
