@@ -20,6 +20,8 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week_8: Feature Engineering and ML Pipelines](#week-8-feature-engineering-and-ml-pipelines)
   - [Week 9: Time Series Forecasting](#week-9-time-series-forecasting)
   - [Week 10: Unsupervised ML Techniques](#week-10-unsupervised-ml-techniques)
+  - [Week 11: Image Processing and Feature Extraction](#week-11-image-processing-and-feature-extraction)
+    
     
     
   
@@ -210,7 +212,7 @@ Key steps:
 ### Week 7: Ensemble Learning and Optimization Strategies
 
 **Overview**
-Covered ensemble learning techniques—Bagging, Boosting (AdaBoost, Gradient Boosting, XGBoost)—to improve model accuracy and generalization. Also focused on hyperparameter tuning with `GridSearchCV` and `RandomizedSearchCV`.
+This week I Covered ensemble learning techniques—Bagging, Boosting (AdaBoost, Gradient Boosting, XGBoost)—to improve model accuracy and generalization. Also focused on hyperparameter tuning with `GridSearchCV` and `RandomizedSearchCV`.
 
 **Pre-Session Prep**
 
@@ -242,7 +244,7 @@ Ensemble learning reduces bias and variance. When combined with proper tuning, i
 ### Week 8: Feature Engineering and ML Pipelines
 
 **Overview**
-Focused on designing high-quality features and building reusable ML pipelines. Covered techniques for transforming, selecting, and extracting features from various data types (text, images, time), handling outliers and imbalanced datasets, and implementing robust workflows using scikit-learn pipelines.
+This week I Focused on designing high-quality features and building reusable ML pipelines. Covered techniques for transforming, selecting, and extracting features from various data types (text, images, time), handling outliers and imbalanced datasets, and implementing robust workflows using scikit-learn pipelines.
 
 **Pre-Session Prep**
 
@@ -273,21 +275,20 @@ Good features often matter more than the model itself. Structured pipelines not 
 ### Week 9: Time Series Forecasting
 
 **Overview**
-Focused on classical time series forecasting using univariate AQI data. Covered decomposition, stationarity checks, model identification via ACF/PACF, and model evaluation with time-aware validation strategies.
+
+This week I Focused on classical time series forecasting using univariate AQI data. Covered decomposition, stationarity checks, model identification via ACF/PACF, and model evaluation with time-aware validation strategies.
 
 **Pre-Session Prep**
 
 * Introduced time series concepts: trend, seasonality, cyclicality, and noise
 * Explained additive vs multiplicative decomposition
-* Covered stationarity, transformations (log, power, differencing), and ADF test
+* Covered stationarity, transformations (log, power, differencing) to achieve stationarity, and ADF test
 * Explored ACF and PACF for ARIMA parameter selection
 * Discussed univariate vs multivariate forecasting models
 
 **Live Session Recap**
 
 * Demonstrated resampling and seasonal-trend decomposition
-* Applied transformations and differencing to achieve stationarity
-* Visualized ACF/PACF to identify ARIMA terms
 * Covered models: Naive, Holt-Winters, and ARIMA
 * Explained time series cross-validation: expanding vs sliding windows
 * Evaluated forecasts using MAE, RMSE, and residuals
@@ -310,40 +311,69 @@ Classical time series models like ARIMA can provide strong baseline forecasts if
 ### Week 10: Unsupervised ML Techniques
 
 **Overview**  
-Focused on extracting insights from unlabeled data using clustering techniques and association rule mining. Covered KMeans, hierarchical clustering, K-Prototypes, and market basket analysis for customer behavior understanding.
+
+This week I Focused on discovering patterns in unlabeled data with clustering methods and association rule mining. Covered KMeans, hierarchical clustering, K-Prototypes, and market basket analysis for customer insights.
 
 **Pre-Session Prep**
 
-* Explored differences between supervised vs. unsupervised learning
-* Covered types of clustering: partition-based, hierarchical, density-based
-* Introduced KMeans algorithm and its assumptions
-* Studied linkage types and Lance-Williams formula in hierarchical clustering
-* Discussed K-Prototypes for mixed-type data
-* Introduced association rule mining: support, confidence, lift
+* Reviewed supervised vs. unsupervised learning and clustering types  
+* Studied KMeans assumptions, linkage methods, and Lance-Williams formula  
+* Covered K-Prototypes for mixed data and association rule metrics (support, confidence, lift)  
 
 **Live Session Recap**
 
-* Implemented KMeans and evaluated clusters using inertia and silhouette scores
-* Visualized dendrograms and used agglomerative clustering for hierarchy extraction
-* Applied K-Prototypes to handle categorical and numerical data jointly
-* Performed market basket analysis using Apriori and `association_rules`
-* Discussed customer segmentation, anomaly detection, and recommendation use cases
+* Implemented and evaluated KMeans using inertia and silhouette scores  
+* Visualized dendrograms; applied agglomerative clustering  
+* Discussed use cases in segmentation, anomaly detection, and recommendations  
 
 **Post-session Work**
 
-* Scaled numerical features (Age, Credit amount, Duration) after outlier handling
-* Ran KMeans clustering, selected optimal `k` using elbow + silhouette methods
-* Used linkage matrix to build and interpret hierarchical clusters
-* Clustered full dataset with KPrototypes after imputing missing categorical values
-* Applied association rule mining on a shopping mall dataset to uncover frequent co-purchased items and customer buying patterns
+* Scaled numerical features after outlier handling  
+* Selected optimal K for KMeans with elbow and silhouette methods  
+* Built and interpreted hierarchical clusters from linkage matrix  
+* Clustered full data with K-Prototypes after imputing missing categories  
+* Applied association rule mining on shopping data to find frequent itemsets and buying patterns  
 
 > **Detailed Repo For Week\_10:** <br>
 > [Unsupervised Learning & Market Basket Analysis](https://github.com/KushalRegmi61/unsupervised-learning)
 
 **Key Insight**  
-Unsupervised learning reveals structure in data without labels. Clustering supports segmentation, while association rules uncover hidden item relationships both essential for actionable business insights.
+Unsupervised methods reveal hidden data structures essential for segmentation and pattern discovery, driving actionable business decisions.
 
 ---
+
+
+### Week 11: Image Processing and Feature Extraction
+
+**Overview**  
+
+This week I Covered essential image enhancement, segmentation, and feature extraction techniques foundational to computer vision.
+
+**Pre-Session Prep**
+
+* Image enhancement with point operations and histogram equalization  
+* Segmentation using masking and thresholding  
+* Filtering, denoising, resizing, and interpolation  
+
+**Live Session Recap**
+
+* Applied enhancement, segmentation, filtering, resizing, and morphological operations  
+* Performed feature detection and matching with Harris and SIFT  
+
+**Post-session Work**
+
+* Enhanced and segmented images; applied smoothing and sharpening filters  
+* Resized images and refined masks with morphological transforms  
+* Extracted and matched features using Harris corner and SIFT algorithms  
+
+> **Detailed Repo For Week\_11:** <br>
+> [Image Processing & Feature Extraction](https://github.com/KushalRegmi61/image_processing)
+
+**Key Insight**  
+Fundamental image processing techniques are critical for preparing visual data and enabling reliable feature extraction in computer vision models.
+
+---
+
 
 
 ## LinkedIn Recaps
@@ -354,3 +384,5 @@ Unsupervised learning reveals structure in data without labels. Clustering suppo
 - [Week 6 Post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61beyondlinearmodels-activity-7342887916991340546-2iUb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [Week_7_Post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61essemble-learning-and-optimization-strategies-activity-7345409528735182849-Ynic?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [Week_8_Post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61feature-engineering-and-ml-pipelines-activity-7350886257935192065-78YA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_9_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_timeseries-forecasting-arima-activity-7354106858036502528-byTn?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_10_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61unsupervised-ml-techniqes-activity-7356710745830498304-fXrJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
