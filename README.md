@@ -412,6 +412,7 @@ This week I built strong foundations in neural networks, explored optimization a
 > [Neural Networks & FashionMNIST](https://github.com/KushalRegmi61/fashion-mnist-classification)
 
 **Key Insight**
+
 Building and optimizing neural networks is an iterative process of experimentation. Applying different initializations, optimizers, and regularization strategies on FashionMNIST highlighted how each design choice impacts learning stability and model accuracy.
 
 ---
