@@ -21,6 +21,8 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 9: Time Series Forecasting](#week-9-time-series-forecasting)
   - [Week 10: Unsupervised ML Techniques](#week-10-unsupervised-ml-techniques)
   - [Week 11: Image Processing and Feature Extraction](#week-11-image-processing-and-feature-extraction)
+  - [Week 12: Deep Neural Networks](#week-12-deep-neural-networks)
+
     
     
     
@@ -371,6 +373,46 @@ This week I Covered essential image enhancement, segmentation, and feature extra
 
 **Key Insight**  
 Fundamental image processing techniques are critical for preparing visual data and enabling reliable feature extraction in computer vision models.
+
+---
+
+### Week 12: Deep Neural Networks 
+
+**Overview**
+This week I built strong foundations in neural networks, explored optimization and regularization techniques, and applied them on the FashionMNIST dataset using PyTorch.
+
+**Pre-Session Prep**
+
+* Computational graphs and backpropagation
+* Activation functions (ReLU, Sigmoid, Tanh)
+* Weight initialization: Xavier, He, LeCun
+* Optimization methods: SGD, Momentum, Adam, RMSProp
+* Normalization: Standardization, BatchNorm, LayerNorm
+* Regularization: L1/L2, Dropout, Early Stopping, Weight Decay
+* Hyperparameter tuning: LR scheduling, search strategies
+
+**Live Session Recap**
+
+* Built and trained feedforward neural networks from scratch in PyTorch
+* Compared optimization methods and their convergence behavior
+* Explored normalization and regularization for stability and generalization
+
+**Post-Session Work (FashionMNIST)**
+
+* Designed fully connected networks for FashionMNIST classification
+* Experimented with different activation functions
+* Applied Xavier, He, and LeCun initialization and compared results
+* Trained with SGD, Momentum, RMSProp, and Adam optimizers
+* Implemented BatchNorm and LayerNorm for performance boost
+* Used Dropout, Early Stopping, and Weight Decay for regularization
+* Tuned learning rates and hyperparameters systematically
+* Evaluated model performance and visualized accuracy/loss curves
+
+> **Detailed Repo For Week\_13:** <br>
+> [Neural Networks & FashionMNIST](https://github.com/KushalRegmi61/fashion-mnist-classification)
+
+**Key Insight**
+Building and optimizing neural networks is an iterative process of experimentation. Applying different initializations, optimizers, and regularization strategies on FashionMNIST highlighted how each design choice impacts learning stability and model accuracy.
 
 ---
 
