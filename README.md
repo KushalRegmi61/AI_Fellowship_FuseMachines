@@ -408,7 +408,7 @@ This week I built strong foundations in neural networks, explored optimization a
 * Tuned learning rates and hyperparameters systematically
 * Evaluated model performance and visualized accuracy/loss curves
 
-> **Detailed Repo For Week\_13:** <br>
+> **Detailed Repo For Week\_12:** <br>
 > [Neural Networks & FashionMNIST](https://github.com/KushalRegmi61/fashion-mnist-classification)
 
 **Key Insight**
@@ -428,3 +428,4 @@ Building and optimizing neural networks is an iterative process of experimentati
 - [Week_8_Post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61feature-engineering-and-ml-pipelines-activity-7350886257935192065-78YA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_9_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_timeseries-forecasting-arima-activity-7354106858036502528-byTn?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_10_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61unsupervised-ml-techniqes-activity-7356710745830498304-fXrJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_11_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61imageprocessing-activity-7358531010138963969-Oiz1?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
