@@ -415,7 +415,36 @@ This week I built strong foundations in neural networks, explored optimization a
 
 Building and optimizing neural networks is an iterative process of experimentation. Applying different initializations, optimizers, and regularization strategies on FashionMNIST highlighted how each design choice impacts learning stability and model accuracy.
 
+
 ---
+
+### Week 13: Foundations of Large Language Models-From Basics to Embeddings
+
+**Overview**
+Focused on the foundations of LLMs, transformer architecture, and practical steps like tokenization, embeddings, and data handling.
+
+**Key Learnings**
+
+* LLM basics: pretraining vs finetuning, BERT vs GPT
+* Transformer architecture: encoder-decoder, attention
+* GPT training: autoregressive, self-supervised learning
+* Token vs positional embeddings for semantic meaning and sequence order
+
+**Hands-On Work**
+
+* Built a tokenizer and implemented Byte Pair Encoding (BPE)
+* Created input-target pairs using PyTorch Dataset/DataLoader
+* Implemented absolute positional embeddings and combined them with token embeddings
+
+> **Repo:** [LLMs-from-scratch](https://github.com/KushalRegmi61/lmm-from-scratch)
+
+
+**Key Insight**
+Moving from theory to implementation helped me understand how raw text becomes structured input for LLMs, strengthening both conceptual and practical foundations.
+
+---
+
+
 
 
 
