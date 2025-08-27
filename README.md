@@ -22,6 +22,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 10: Unsupervised ML Techniques](#week-10-unsupervised-ml-techniques)
   - [Week 11: Image Processing and Feature Extraction](#week-11-image-processing-and-feature-extraction)
   - [Week 12: Deep Neural Networks](#week-12-deep-neural-networks)
+  - [Week 13: Foundations of LLMs-(From Basics to Embeddings)](#week-13-foundations-of-large-language-models-from-basics-to-embeddings)
 
     
     
