@@ -23,6 +23,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 11: Image Processing and Feature Extraction](#week-11-image-processing-and-feature-extraction)
   - [Week 12: Deep Neural Networks](#week-12-deep-neural-networks)
   - [Week 13: Foundations of LLMs-(From Basics to Embeddings)](#week-13-foundations-of-large-language-models-from-basics-to-embeddings)
+  - [Week 14: Attention Mechanism in LLMs](#week-14-attention-mechanism-in-llms)
 
     
     
@@ -445,6 +446,35 @@ Moving from theory to implementation helped me understand how raw text becomes s
 
 ---
 
+### Week 14: Attention Mechanism in LLMs 
+
+**Overview**
+
+This week was focused on the mathematical foundations and implementations of attention mechanisms, including self-attention, causal attention, and multi-head attention which are  the core of modern LLMs.  
+
+**Key Learnings**  
+- Why attention is needed: solves RNN’s long-term dependency issue.  
+- Attention scores vs attention weights: raw similarity vs normalized probabilities.  
+- Scaling by √d: stabilizes softmax and prevents peaky distributions.  
+- Context vector: weighted sum of values, conditioned on query relevance.  
+- Bahdanau vs Scaled Dot-Product: additive vs efficient dot-product attention.  
+- Self-attention: each token attends to every other token.  
+- Causal attention: masking ensures autoregressive prediction.  
+- Multi-head attention: captures multiple dependency patterns in parallel.  
+
+**Hands-On Work**  
+- Implemented scaled dot-product attention in PyTorch from scratch.  
+- Verified dimensional flows and tensor operations step by step.  
+- Built trainable self-attention, causal attention with masking, and multi-head attention with output projection.  
+- Understood the full math pipeline from Q, K, V to final context vectors.  
+
+> **Repo:** [LLMs-from-scratch](https://github.com/KushalRegmi61/lmm-from-scratch)
+
+**Key Insight**  
+Beyond coding, I gained a full mathematical and conceptual grasp of how attention distributes focus, why normalization matters, and how multi-head extensions enrich contextual understanding — making it the true “engine” of LLMs.  
+
+----
+
 
 
 
@@ -460,3 +490,5 @@ Moving from theory to implementation helped me understand how raw text becomes s
 - [week_9_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_timeseries-forecasting-arima-activity-7354106858036502528-byTn?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_10_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61unsupervised-ml-techniqes-activity-7356710745830498304-fXrJ?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_11_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61imageprocessing-activity-7358531010138963969-Oiz1?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_12_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_deeplearning-pytorch-neuralnetworks-activity-7363955899343728641-Wvq2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_13_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61lmm-from-scratch-activity-7368258395939774466-ruCE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
