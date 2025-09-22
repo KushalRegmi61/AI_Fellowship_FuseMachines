@@ -24,6 +24,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 12: Deep Neural Networks](#week-12-deep-neural-networks)
   - [Week 13: Foundations of LLMs-(From Basics to Embeddings)](#week-13-foundations-of-large-language-models-from-basics-to-embeddings)
   - [Week 14: Attention Mechanism in LLMs](#week-14-attention-mechanism-in-llms)
+  - [Week 15: Implementing GPT-2 from Scratch](#week-15-implementing-gpt-2-from-scratch)
 
     
     
@@ -476,6 +477,35 @@ Beyond coding, I gained a full mathematical and conceptual grasp of how attentio
 ----
 
 
+### Week 15: Implementing GPT-2 from Scratch  
+
+**Overview**  
+
+This week I reconstructed GPT-2 from scratch, covering every block from embeddings to the autoregressive training loop. The focus was on understanding the mathematical design, the tensor dimensions at each stage, and why GPT-2’s architecture enables scalable large language models.  
+
+**Key Learnings**  
+- Token + Positional Embeddings: how discrete tokens are mapped into continuous vector space with learned positional context.  
+- LayerNorm placement: stabilizes training and controls activation scales across deep networks.  
+- Multi-Head Causal Attention: parallel attention heads with masking to preserve autoregressive flow.  
+- Feedforward Blocks: non-linear transformations that enrich token representations.  
+- Residual Connections: critical for gradient flow and stable scaling.  
+- Training loop: autoregressive loss, tokens-seen tracking, and periodic evaluation.  
+- Dimension consistency: verified shapes through embeddings → attention → feedforward → logits.  
+- Scaling insight: design choices here are what make billion-parameter models possible.  
+
+**Hands-On Work**  
+- Implemented GPT-2 architecture in PyTorch block by block.  
+- Rebuilt the causal attention mechanism with proper masking and projections.  
+- Trained the model with custom loop including validation evaluation.  
+- Debugged dimension mismatches and confirmed tensor flows end-to-end.  
+- Experimented with optimizer, context length, and evaluation frequency.  
+
+> **Repo:** [LLMs-from-scratch](https://github.com/KushalRegmi61/lmm-from-scratch)  
+
+**Key Insight**  
+By coding GPT-2 line by line, I moved beyond “black-box” usage into fully grasping how embeddings, attention, normalization, and residual pathways combine to form a scalable transformer. This clarified why GPT-2 was the turning point for modern LLMs.  
+
+----
 
 
 
