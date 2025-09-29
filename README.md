@@ -25,6 +25,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 13: Foundations of LLMs-(From Basics to Embeddings)](#week-13-foundations-of-large-language-models-from-basics-to-embeddings)
   - [Week 14: Attention Mechanism in LLMs](#week-14-attention-mechanism-in-llms)
   - [Week 15: Implementing GPT-2 from Scratch](#week-15-implementing-gpt-2-from-scratch)
+  - [Week 16: Fine-Tuning GPT-2 for Text Classification](#week-16-fine-tuning-gpt-2-for-text-classification)
 
     
     
@@ -507,6 +508,34 @@ By coding GPT-2 line by line, I moved beyond “black-box” usage into fully gr
 
 ----
 
+### Week 16: Fine-Tuning GPT-2 for Text Classification  
+
+**Overview**  
+This week I adapted GPT-2 (124M) from a generative model into a spam classifier. The workflow covered dataset preparation, preprocessing, DataLoader design, model modification, and selective fine-tuning of transformer layers. The focus was on applying transfer learning principles to repurpose LLMs for supervised classification tasks.  
+
+**Key Learnings**  
+- Dataset preparation: balanced spam/ham, label encoding, and proper train/val/test splits.  
+- Tokenization & padding: standardized sequence length for stable gradients and efficient batching.  
+- DataLoader engineering: ensured each batch contained uniform token counts.  
+- Classification head: replaced GPT-2’s 50,257-dim output with a 2-class linear layer (generalizable to multi-class).  
+- Selective fine-tuning: last transformer block + final LayerNorm trainable, earlier layers frozen.  
+- Training dynamics: accuracy improved from ~46% baseline to 97% (train/val) and 95% (test) within 5 epochs.  
+- Evaluation insight: validation accuracy slightly above test set; minimal overfitting, tunable with dropout/weight decay.  
+
+**Hands-On Work**  
+- Implemented `SpamDataset` for tokenization, truncation, padding, and batching.  
+- Loaded pretrained GPT-2 weights in PyTorch.  
+- Added binary classification head.  
+- Trained with AdamW (lr=5e-5, weight_decay=0.1) using cross-entropy loss.  
+- Visualized loss and accuracy curves; confirmed synchronized decline and convergence.  
+- Built `classify_review` function to preprocess text and return predicted labels.  
+
+> **Repo:** [LLMs-from-scratch](https://github.com/KushalRegmi61/lmm-from-scratch)  
+
+**Key Insight**  
+Even modest-sized LLMs like GPT-2 (124M) can achieve near-production accuracy on classification with careful preprocessing, selective layer training, and evaluation. Fine-tuning bridges research LLMs with practical, domain-specific applications like spam detection, sentiment analysis, and grievance routing.  
+
+---
 
 
 ## LinkedIn Recaps
@@ -522,3 +551,6 @@ By coding GPT-2 line by line, I moved beyond “black-box” usage into fully gr
 - [week_11_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61imageprocessing-activity-7358531010138963969-Oiz1?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_12_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_deeplearning-pytorch-neuralnetworks-activity-7363955899343728641-Wvq2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_13_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_github-kushalregmi61lmm-from-scratch-activity-7368258395939774466-ruCE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_14_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_attention-transformers-llm-activity-7372152740325515264-HfMM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_15_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-nlp-llm-activity-7375751037153878016-MJMC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_16_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-nlp-llm-activity-7378231021772644352-j1wy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
