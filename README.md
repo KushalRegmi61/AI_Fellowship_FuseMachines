@@ -26,7 +26,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 14: Attention Mechanism in LLMs](#week-14-attention-mechanism-in-llms)
   - [Week 15: Implementing GPT-2 from Scratch](#week-15-implementing-gpt-2-from-scratch)
   - [Week 16: Fine-Tuning GPT-2 for Text Classification](#week-16-fine-tuning-gpt-2-for-text-classification)
-
+  - [Week 17: Instruction Fine-Tuning GPT-2 (355M)](#week-17-instruction-fine-tuning-gpt-2-355m)
     
     
     
@@ -537,6 +537,33 @@ Even modest-sized LLMs like GPT-2 (124M) can achieve near-production accuracy on
 
 ---
 
+### Week 17: Instruction Fine-Tuning GPT-2 (355M)
+
+**Overview**  
+This week I transformed GPT-2 (355M) from a generic text generator into an instruction-following assistant. Using ~1.1k Alpaca-style instruction-response pairs, the model learned to interpret human instructions and produce task-aligned outputs. The workflow covered dataset preparation, causal language modeling, full fine-tuning of all transformer layers, and structured evaluation, emphasizing practical alignment over raw scale.  
+
+**Key Learnings**  
+- Dataset preparation: Alpaca-style JSON with {instruction, input, output}, proper train/validation/test splits.  
+- Causal LM setup: each token predicts the next (inputs[:-1] → targets[1:]), pad tokens masked to stabilize loss.  
+- Full fine-tuning: updated all 355M parameters using AdamW (lr=5e-5, weight_decay=0.1), achieving rapid convergence in a few epochs.  
+- Evaluation strategy: combined MMLU (multi-domain reasoning), human evaluation (correctness, helpfulness, safety), and automated scoring via Meta-Llama-3-8B-Instruct; model scored 53.79/100.  
+- Training dynamics: train loss collapsed from 4.197 to 0.17, validation stabilized ~0.70; rapid early convergence is expected with small datasets.  
+- Practical insight: small models can achieve instruction alignment without massive compute; multi-seed and checkpoint evaluation improve stability.  
+
+**Hands-On Work**  
+- Preprocessed dataset with tokenization, truncation, padding, and dynamic batching.  
+- Loaded GPT-2 weights in PyTorch and trained with causal LM objective.  
+- Saved outputs in JSON for reproducible human and automated evaluation.  
+- Loss curves visualized smooth convergence, confirming stable learning.  
+- Setup designed for future PEFT experiments (LoRA, QLoRA) and richer datasets.  
+
+> **Repo:** [LLMs-from-scratch](https://github.com/KushalRegmi61/lmm-from-scratch) 
+
+**Key Insight**  
+Instruction fine-tuning turns GPT-2 into a task-aligned assistant capable of reasoning over prompts, demonstrating that alignment and evaluation matter more than model scale. This approach provides a baseline for practical AI applications such as chatbots, civic grievance systems, and domain-specific assistants.  
+
+---  
+
 
 ## LinkedIn Recaps
 
@@ -554,3 +581,4 @@ Even modest-sized LLMs like GPT-2 (124M) can achieve near-production accuracy on
 - [week_14_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_attention-transformers-llm-activity-7372152740325515264-HfMM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_15_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-nlp-llm-activity-7375751037153878016-MJMC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_16_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-nlp-llm-activity-7378231021772644352-j1wy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_17_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-nlp-llm-activity-7382006186000236544-XsHR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
