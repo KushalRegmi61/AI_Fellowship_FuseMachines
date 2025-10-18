@@ -27,7 +27,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 15: Implementing GPT-2 from Scratch](#week-15-implementing-gpt-2-from-scratch)
   - [Week 16: Fine-Tuning GPT-2 for Text Classification](#week-16-fine-tuning-gpt-2-for-text-classification)
   - [Week 17: Instruction Fine-Tuning GPT-2 (355M)](#week-17-instruction-fine-tuning-gpt-2-355m)
-    
+  - [Week 18: Multilingual Grievance Department Classification with XLM-RoBERTa](#week-18-multilingual-grievance-department-classification-with-xlm-roberta)
     
     
   
@@ -563,6 +563,35 @@ This week I transformed GPT-2 (355M) from a generic text generator into an instr
 Instruction fine-tuning turns GPT-2 into a task-aligned assistant capable of reasoning over prompts, demonstrating that alignment and evaluation matter more than model scale. This approach provides a baseline for practical AI applications such as chatbots, civic grievance systems, and domain-specific assistants.  
 
 ---  
+
+### Week 18: Multilingual Grievance Department Classification with XLM-RoBERTa
+
+**Overview**
+This week I built a full pipeline to classify Nepali and English civic grievances into departments. The workflow included data cleaning, bilingual augmentation, XLM-RoBERTa fine-tuning, focal vs cross-entropy loss comparison, experiment tracking, versioning, and deployment with FastAPI, Pydantic, Docker, and Hugging Face Spaces.
+
+**Key Learnings**
+
+* Dataset prep: cleaned, encoded, and balanced bilingual data with augmentation.
+* Model fine-tuning: `xlm-roberta-base`, batch_size=16, lr=2e-5, 3 epochs, mixed precision.
+* Loss comparison: focal loss emphasizes hard/minority samples, improving rare-class performance over standard cross-entropy.
+* Experiment tracking & versioning: TensorBoard logs and HF Hub automated uploads with metadata and version tags.
+* Deployment: FastAPI backend with Pydantic validation, Dockerized, hosted on HF Spaces.
+
+**Hands-On Work**
+
+* Preprocessed dataset and applied bilingual augmentation.
+* Fine-tuned model, monitored loss, accuracy, F1.
+* Tested focal vs cross-entropy; rare-class predictions improved.
+* Integrated TensorBoard tracking and automated HF Hub logging.
+* Built production-ready deployment pipeline on HF Spaces.
+
+> **Repo:** Private; Only Limited within Fellowship
+
+**Key Insight**
+Focal loss + bilingual augmentation + end-to-end deployment ensures accurate, robust, and production-ready grievance classification.
+
+---
+
 
 
 ## LinkedIn Recaps
