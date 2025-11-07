@@ -28,6 +28,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 16: Fine-Tuning GPT-2 for Text Classification](#week-16-fine-tuning-gpt-2-for-text-classification)
   - [Week 17: Instruction Fine-Tuning GPT-2 (355M)](#week-17-instruction-fine-tuning-gpt-2-355m)
   - [Week 18: Multilingual Grievance Department Classification with XLM-RoBERTa](#week-18-multilingual-grievance-department-classification-with-xlm-roberta)
+  - [Week 19: Continuous Learning System for Sambodhan AI](#week-19-continuous-learning-system-for-sambodhan-ai)
     
     
   
@@ -592,6 +593,28 @@ Focal loss + bilingual augmentation + end-to-end deployment ensures accurate, ro
 
 ---
 
+### Week 19: Continuous Learning System for Sambodhan AI
+
+**Overview**  
+This week I developed a continuous learning pipeline that automatically updates Sambodhan’s Urgency and Department classifiers using real-world feedback. The system combines automated dataset preparation and model retraining on Hugging Face Spaces, fully tracked via Weights & Biases.
+
+**Key Learnings**  
+* Dataset Pipeline: Fetches misclassified data from PostgreSQL, cleans, splits, and pushes versioned datasets to the HF Hub.  
+* Retraining Pipeline: Loads latest dataset, trains with Focal Loss + early stopping, auto-deploys only if F1-macro improves.  
+* Tracking & Deployment: All runs logged in W&B; retrained weights deployed seamlessly with FastAPI backend.  
+* Efficiency: Both Spaces Dockerized with auto-pause to save compute and email notifications on completion.  
+
+**Hands-On Work**  
+* Automated end-to-end retraining flow from data fetch to deployment.  
+* Integrated W&B tracking, HF Hub versioning, and metric-based deployment gating.  
+* Verified performance consistency and data integrity across retraining cycles.  
+
+> **Repo:** Private; Only Limited within Fellowship
+
+**Key Insight**  
+Continuous learning ensures Sambodhan’s AI evolves safely and intelligently—each retrain is measurable, traceable, and genuinely better than the last.  
+
+---
 
 
 ## LinkedIn Recaps
@@ -611,3 +634,5 @@ Focal loss + bilingual augmentation + end-to-end deployment ensures accurate, ro
 - [week_15_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-nlp-llm-activity-7375751037153878016-MJMC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_16_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-nlp-llm-activity-7378231021772644352-j1wy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_17_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-nlp-llm-activity-7382006186000236544-XsHR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_18_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-nlp-transformers-activity-7385330216426192896-3m4O?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_19_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-mlops-huggingface-activity-7392544291572617216-VE31?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
