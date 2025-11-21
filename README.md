@@ -29,6 +29,8 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 17: Instruction Fine-Tuning GPT-2 (355M)](#week-17-instruction-fine-tuning-gpt-2-355m)
   - [Week 18: Multilingual Grievance Department Classification with XLM-RoBERTa](#week-18-multilingual-grievance-department-classification-with-xlm-roberta)
   - [Week 19: Continuous Learning System for Sambodhan AI](#week-19-continuous-learning-system-for-sambodhan-ai)
+  - [Week 20: Continuous Learning Orchestration + Demo Video](#week-20-continuous-learning-orchestration--demo-video)
+
     
     
   
@@ -617,6 +619,29 @@ Continuous learning ensures Sambodhan’s AI evolves safely and intelligently—
 ---
 
 
+### Week 20: Continuous Learning Orchestration + Demo Video
+
+**Overview**  
+This week, I developed Sambodhan’s CI/CD orchestrator to automate the loop from *data → dataset → retraining → deployment* and created a short demo video showcasing the workflow.
+
+**Key Implementations**  
+1. **Orchestrator**  
+   - Monitors misclassification counts from PostgreSQL and triggers dataset rebuilding only when thresholds are exceeded.  
+   - Polls Hugging Face Hub for updated dataset versions and restarts retraining Spaces automatically.  
+   - Logs all steps in GitHub Actions for full observability.  
+   **Key Takeaway:** Ensures models remain accurate, reliable, and resource-efficient.
+
+2. **Demo Video**  
+   - Demonstrates the end-to-end project functioning.  
+   **Key Takeaway:** Communication and presentation skills are as critical as technical engineering for conveying complex pipelines.
+
+**Personal Reflection**  
+This week reinforced that impactful AI engineering is about building robust, auditable systems while effectively communicating them to stakeholders.
+
+> **DEMO VIDEO:** [watch it here](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_aigovernance-sambodhanai-nepal-activity-7395844861079465984-z4Pc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+
+---
+
 ## LinkedIn Recaps
 
 - [Week 1–4 Recap](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_aifellowshipfusemachinesreadmemd-at-master-activity-7339869109536387073-0Zrf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
@@ -636,3 +661,4 @@ Continuous learning ensures Sambodhan’s AI evolves safely and intelligently—
 - [week_17_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-nlp-llm-activity-7382006186000236544-XsHR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_18_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-nlp-transformers-activity-7385330216426192896-3m4O?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_19_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-mlops-huggingface-activity-7392544291572617216-VE31?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_20_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_aigovernance-sambodhanai-nepal-activity-7397661886869164032-BdQO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
