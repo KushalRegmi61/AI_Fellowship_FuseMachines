@@ -30,6 +30,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 18: Multilingual Grievance Department Classification with XLM-RoBERTa](#week-18-multilingual-grievance-department-classification-with-xlm-roberta)
   - [Week 19: Continuous Learning System for Sambodhan AI](#week-19-continuous-learning-system-for-sambodhan-ai)
   - [Week 20: Continuous Learning Orchestration + Demo Video](#week-20-continuous-learning-orchestration--demo-video)
+  - [Week 21: Engineering RAG Ingestion for Nutritional Chatbot](#week-21-engineering-rag-ingestion-for-nutritional-chatbot)
 
     
     
@@ -639,6 +640,33 @@ This week, I developed Sambodhan’s CI/CD orchestrator to automate the loop fro
 This week reinforced that impactful AI engineering is about building robust, auditable systems while effectively communicating them to stakeholders.
 
 > **DEMO VIDEO:** [watch it here](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_aigovernance-sambodhanai-nepal-activity-7395844861079465984-z4Pc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+
+---
+### Week 21: Engineering RAG Ingestion for Nutritional Chatbot
+
+**Overview**
+This week I focused on engineering the ingestion layer for a RAG-based Nutritional Chatbot built on a 1,200-page nutrition textbook. Instead of relying on high-level text splitters, I implemented several chunking algorithms from scratch to understand how document segmentation affects retrieval quality, hallucination control, and overall system reliability in production.
+
+**Key Learnings**
+
+* EDA on corpus revealed token distribution mismatches that could silently truncate pages during embedding and retrieval.
+* Fixed-size chunking is predictable but breaks semantic structure.
+* Semantic and LLM-based chunking preserve meaning but introduce fragmentation and high compute cost.
+* Recursive chunking offers the best engineering trade-off: structurally aware, token-safe, and computationally balanced.
+
+**Hands-On Work**
+
+* Implemented five chunking algorithms: fixed, structure-based, semantic, recursive, and LLM-assisted.
+* Benchmarked output quality, variance, and token lengths across 1,200 pages.
+* Compared accuracy vs cost trade-offs and identified recursive chunking as the most production-ready approach.
+* Evaluated extraction tooling for different document formats (PyMuPDF, Tesseract, Dockling).
+
+> Repo: [Repo Link](https://github.com/KushalRegmi61/rag)
+
+**Key Insight**
+Many RAG systems fail not at retrieval but during ingestion. If engineers cannot trace how documents are sliced, retrieval errors and hallucinations become impossible to debug. Understanding the ingestion pipeline at the algorithmic level is a prerequisite for production-grade RAG.
+
+
 
 ---
 
