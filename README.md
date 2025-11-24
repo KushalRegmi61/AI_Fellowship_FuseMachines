@@ -31,6 +31,8 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 19: Continuous Learning System for Sambodhan AI](#week-19-continuous-learning-system-for-sambodhan-ai)
   - [Week 20: Continuous Learning Orchestration + Demo Video](#week-20-continuous-learning-orchestration--demo-video)
   - [Week 21: Engineering RAG Ingestion for Nutritional Chatbot](#week-21-engineering-rag-ingestion-for-nutritional-chatbot)
+  - [Week 22: End-to-End RAG Nutrition Chatbot with Evaluation](#week-22-end-to-end-rag-nutrition-chatbot-with-evaluation)
+
 
     
     
@@ -661,11 +663,36 @@ This week I focused on engineering the ingestion layer for a RAG-based Nutrition
 * Compared accuracy vs cost trade-offs and identified recursive chunking as the most production-ready approach.
 * Evaluated extraction tooling for different document formats (PyMuPDF, Tesseract, Dockling).
 
-> Repo: [Repo Link](https://github.com/KushalRegmi61/rag)
+> Repo: [Repo Link](https://github.com/KushalRegmi61/nutritional-rag-chatbot)
 
 **Key Insight**
 Many RAG systems fail not at retrieval but during ingestion. If engineers cannot trace how documents are sliced, retrieval errors and hallucinations become impossible to debug. Understanding the ingestion pipeline at the algorithmic level is a prerequisite for production-grade RAG.
 
+---
+
+### Week 22: End-to-End RAG Nutrition Chatbot with Evaluation
+
+**Overview**  
+This week I completed a fully working RAG chatbot for nutritional question answering with a complete pipeline: ingestion, chunking, embedding, vector storage, UI interaction, LLM generation, and quantitative evaluation using Ragas. The system processes a 1200-page textbook and delivers answers through a Next.js interface deployed on Google Antigravity.
+
+**Key Learnings**  
+* Fixed chunking with overlap helps preserve semantic continuity but still loses some conceptual structure across page boundaries.  
+* Hosting a custom embedding model (Qwen3-Embedding-0.6B) as a Dockerized FastAPI service on Hugging Face Spaces provides full control and avoids external embedding API cost.  
+* Since the dataset has fewer than 100k embeddings, storing vectors directly in Supabase PostgreSQL with pgvector simplifies sync between relational data and vector search.  
+* Ragas metrics revealed that retrieval is excellent, but generated answers are not grounding properly in the retrieved context.
+
+**Hands-On Work**  
+* Built ingestion with fixed overlapping chunks and stored all results in Supabase.  
+* Deployed custom embedding inference endpoint through HF Spaces FastAPI service.  
+* Added Next.js UI for user queries and Groq-backed LLM responses.  
+* Performed structured evaluation using Ragas on four key metrics.
+
+
+> Repo: [Repo Link](https://github.com/KushalRegmi61/nutritional-rag-chatbot)
+
+
+**Key Insight**  
+RAG systems often fail not in embedding or retrieval but in how the documents are chunked and how effectively the model grounds responses. Automated evaluation made the weaknesses visible, making future improvements data-driven.
 
 
 ---
@@ -690,3 +717,4 @@ Many RAG systems fail not at retrieval but during ingestion. If engineers cannot
 - [week_18_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-nlp-transformers-activity-7385330216426192896-3m4O?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_19_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-mlops-huggingface-activity-7392544291572617216-VE31?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_20_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_aigovernance-sambodhanai-nepal-activity-7397661886869164032-BdQO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_21_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-rag-ai-activity-7398020910282199041-vTXk?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
