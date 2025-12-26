@@ -10,9 +10,9 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
 
 <img width="1087" height="817" alt="image" src="https://github.com/user-attachments/assets/43774d8c-460b-4caa-8a27-bafcb2d8b6a5" />
 
-> CERTIFICATE VERIFICATION LINK: [https://verifycertificates.fuseclassroom.com/?certificateId=694b9e73053262715baccf74](https://verifycertificates.fuseclassroom.com/?certificateId=694b9e73053262715baccf74)
+> CERTIFICATE VERIFICATION LINK: [https://verifycertificates.fuseclassroom.com](https://verifycertificates.fuseclassroom.com/?certificateId=694b9e73053262715baccf74)
 
-> LINKEDIN POST: [CLICK HERE](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_fusemachines-ai-fellowship-certificatte-activity-7409951568126734336-BUv_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+> LINKEDIN POST LINK: [CLICK HERE](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_fusemachines-ai-fellowship-certificatte-activity-7409951568126734336-BUv_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 ---
 
 ## Table of Contents
