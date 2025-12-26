@@ -1,10 +1,18 @@
-# Fusemachines AI Fellowship – Weekly Progress Log
+# Fusemachines AI Fellowship: Weekly Progress Log
 
 Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repository serves as a public log of my learning progress, challenges, and hands-on projects. Each week includes a short summary, key takeaways, and links to related code or notes.
 
 > **Why this Fellowship?**  
 > I joined this program to sharpen my skills in AI/ML, build real-world projects, and grow with a learning community. This log helps me stay accountable and reflect on my growth.
 
+---
+# CERTFICATE OF COMPLETION
+
+<img width="1087" height="817" alt="image" src="https://github.com/user-attachments/assets/43774d8c-460b-4caa-8a27-bafcb2d8b6a5" />
+
+> CERTIFICATE VERIFICATION LINK: [https://verifycertificates.fuseclassroom.com/?certificateId=694b9e73053262715baccf74](https://verifycertificates.fuseclassroom.com/?certificateId=694b9e73053262715baccf74)
+
+> LINKEDIN POST: [CLICK HERE](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_fusemachines-ai-fellowship-certificatte-activity-7409951568126734336-BUv_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 ---
 
 ## Table of Contents
@@ -32,6 +40,7 @@ Welcome to my 24-week journey through the Fusemachines AI Fellowship. This repos
   - [Week 20: Continuous Learning Orchestration + Demo Video](#week-20-continuous-learning-orchestration--demo-video)
   - [Week 21: Engineering RAG Ingestion for Nutritional Chatbot](#week-21-engineering-rag-ingestion-for-nutritional-chatbot)
   - [Week 22: End-to-End RAG Nutrition Chatbot with Evaluation](#week-22-end-to-end-rag-nutrition-chatbot-with-evaluation)
+  - Week 23-24: Final Certificate Exam Preperation & Examination
 
 
     
@@ -718,3 +727,4 @@ RAG systems often fail not in embedding or retrieval but in how the documents ar
 - [week_19_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-mlops-huggingface-activity-7392544291572617216-VE31?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_20_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_aigovernance-sambodhanai-nepal-activity-7397661886869164032-BdQO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
 - [week_21_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_machinelearning-rag-ai-activity-7398020910282199041-vTXk?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
+- [week_22_post](https://www.linkedin.com/posts/kushal-regmi-0b88a42aa_ai-rag-groq-activity-7398790029570965505-rbSw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEqGxYwBvISQU0D0hQ4gElKpiVYsO41o6NM)
